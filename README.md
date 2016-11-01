@@ -1,7 +1,7 @@
 Anax Flat
 =========
 
-Part of the course "design" at Blekinge Tekniska Högskola. The courser is part of the program "Webbprogramering 120p".
+Part of the course "design" at Blekinge Tekniska Högskola. The course is part of the program "Webbprogramering 120p".
 
 By Tobias Almroth, 2016
 
