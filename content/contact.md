@@ -1,4 +1,3 @@
-Contact
-==============================================
+#Kontakt
 
-Any questions about this site can be emailed to [Mikael Roos](https://mikaelroos.se) on (mos@dbwebb.se).
+Har du en fråga eller är intresserad av att komma i kontakt med Tobias Almroth så nås jag på (tobalm.vim@gmail.com).

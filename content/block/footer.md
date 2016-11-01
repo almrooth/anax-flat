@@ -1,5 +1,4 @@
-Copyright &copy; 2012-2016 [Mikael Roos](https://mikaelroos.se) (mos@dbwebb.se)
+Copyright &copy; 2016 Tobias Almroth
 
-* [License](license)
-* [Cookies](cookies)
-* [Contact](contact)
+* [Licens](license)
+* [Kontakt](contact)

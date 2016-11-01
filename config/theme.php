@@ -15,7 +15,7 @@ return [
             // General
             "htmlClass"     => ["anax-flat"],
             "bodyClass"     => [],
-            "lang"          => "en",
+            "lang"          => "sv",
             "charset"       => "utf-8",
             "title_append"  => " | Anax Flat",
             "favicon"       => "img/favicon/favicon_256x256.png",
@@ -84,7 +84,7 @@ return [
                         "contentRoute" => "block/footer-col-1",
                     ],
                     [
-                        "contentRoute" => "block/footer-col-2",
+                        "contentRoute" => "block/byline",
                     ],
                     [
                         "contentRoute" => "block/footer-col-3",

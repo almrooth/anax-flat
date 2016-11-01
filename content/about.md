@@ -1,7 +1,9 @@
-About this site
-==============================================
+#Om sidan
 
-This site is made as a part of the course "design" at Blekinge Tekniska Högskola. The course is part of the program "Webbprogrammering 120p".
+![code](img/code.png)
 
-The site uses a PHP-based framework called "Anax Flat".
-For information take a look at the frameworks page on [GitHub](https://github.com/mosbth/anax).
+Den här sidan är skapad inom ramen för kursen "design" vid Blekinge Tekniska Högskola. Kursen är en del av programmet "Webbprogrammering 120p".
+
+Sidan använder ett PHP-baserat ramverk kallat "Anax Flat" som använder sig utav [markdown](https://daringfireball.net/projects/markdown/).
+
+Kolla gärna in sidan och hur den utvecklas på [GitHub](https://github.com/almrooth/anax-flat).

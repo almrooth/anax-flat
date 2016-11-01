@@ -1,5 +1,5 @@
 ####Anax Flat
 
-To build websites based on markup documents and configuration in YAML.
+PHP-baserat ramverk som använder sig av markdown och YAML.
 
-[Get going](http://dbwebb.se/kunskap/bygg-me-sida-med-anax-flat).
+[GitHub](https://github.com/canax/anax-flat)

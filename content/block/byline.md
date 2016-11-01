@@ -1,3 +1,3 @@
-**Tobias Almroth** - design and code for the web
+**Tobias Almroth** - design och programmering för webben
 
-Check out my work at [GitHub](https://github.com/almrooth)
+Kaffedrickande multisportare som skapar sig en ny framtid genom att gå Webbprogrammering 120p på Blekinge Tekniska Högskola.
