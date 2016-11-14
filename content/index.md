@@ -25,4 +25,4 @@ På fritiden lockar familj och vänner samt fritidshuset på Gotland. Att vara u
 
 För nävarande tränar jag hårt inför min första triathlontävling nästa sommar. Där kommer jag, som en av grundarna, representera multisportlaget "Team Kittens of Doom". Ett relativt nytt lag som kämpar för att slå sig in på världsscenen när det kommer till multisport och triathlon.
 
-![Tobias Almroth](img/me.jpg)
+<img src="img/me.jpg" style="max-height:200px;border-radius:100%;display:block;margin:5em auto;" alt="Tobias Almroth"/>

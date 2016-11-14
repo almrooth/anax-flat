@@ -14,6 +14,12 @@ return [
         // Here comes the menu structure
         "items" => [
 
+            "hem" => [
+                "text"  => t("Hem"),
+                "url"   => $this->di->get("url")->create("index"),
+                "title" => t("Hem"),
+            ],
+
             "report" => [
                 "text"  => t("Redovisningar"),
                 "url"   => $this->di->get("url")->create("report"),
@@ -37,7 +43,7 @@ return [
 
 
 
-/*
+
     // Used as menu together with responsive menu
     // Name of this menu
     "navbarMax" => [
@@ -48,6 +54,12 @@ return [
 
         // Here comes the menu structure
         "items" => [
+
+            "hem" => [
+                "text"  => t("Hem"),
+                "url"   => $this->di->get("url")->create("index"),
+                "title" => t("Hem"),
+            ],
 
             "report" => [
                 "text"  => t("Report"),
@@ -61,9 +73,15 @@ return [
                 "url"   => $this->di->get("url")->create("about"),
                 "title" => t("About this website")
             ],
+
+            "test" => [
+                "text"  => t("Testsida"),
+                "url"   => $this->di->get("url")->create("test"),
+                "title" => t("Testsida")
+            ],
         ],
     ],
-*/
+
 
 
     /**
