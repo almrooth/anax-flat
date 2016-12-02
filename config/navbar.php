@@ -14,10 +14,10 @@ return [
         // Here comes the menu structure
         "items" => [
 
-            "hem" => [
-                "text"  => t("Hem"),
-                "url"   => $this->di->get("url")->create("index"),
-                "title" => t("Hem"),
+            "about" => [
+                "text"  => t("Om sidan"),
+                "url"   => $this->di->get("url")->create("about"),
+                "title" => t("Om sidan")
             ],
 
             "report" => [
@@ -25,12 +25,6 @@ return [
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Redovisningar"),
                 "mark-if-parent" => true,
-            ],
-
-            "about" => [
-                "text"  => t("Om sidan"),
-                "url"   => $this->di->get("url")->create("about"),
-                "title" => t("Om sidan")
             ],
 
             "grid" => [
@@ -42,14 +36,21 @@ return [
             "typography" => [
                 "text"  => t("Typo"),
                 "url"   => $this->di->get("url")->create("typography"),
-                "title" => t("Typography")
+                "title" => t("Typografi")
             ],
 
-            "test" => [
-                "text"  => t("Test"),
-                "url"   => $this->di->get("url")->create("test"),
-                "title" => t("Testsida")
+            "analysis" => [
+                "text"  => t("Färganalys"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Färganalys")
             ],
+
+            "theme" => [
+                "text"  => t("Teman"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Teman")
+            ],
+
         ],
     ],
 
@@ -67,23 +68,17 @@ return [
         // Here comes the menu structure
         "items" => [
 
-            "hem" => [
-                "text"  => t("Hem"),
-                "url"   => $this->di->get("url")->create("index"),
-                "title" => t("Hem"),
+            "about" => [
+                "text"  => t("Om sidan"),
+                "url"   => $this->di->get("url")->create("about"),
+                "title" => t("Om sidan")
             ],
 
             "report" => [
-                "text"  => t("Report"),
+                "text"  => t("Redovisningar"),
                 "url"   => $this->di->get("url")->create("report"),
-                "title" => t("Reports from kmom assignments"),
+                "title" => t("Redovisningar"),
                 "mark-if-parent" => true,
-            ],
-
-            "about" => [
-                "text"  => t("About"),
-                "url"   => $this->di->get("url")->create("about"),
-                "title" => t("About this website")
             ],
 
             "grid" => [
@@ -93,15 +88,21 @@ return [
             ],
 
             "typography" => [
-                "text"  => t("Typography"),
+                "text"  => t("Typografi"),
                 "url"   => $this->di->get("url")->create("typography"),
-                "title" => t("Typography")
+                "title" => t("Typografi")
             ],
 
-            "test" => [
-                "text"  => t("Testsida"),
-                "url"   => $this->di->get("url")->create("test"),
-                "title" => t("Testsida")
+            "analysis" => [
+                "text"  => t("Färg"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Färganalys")
+            ],
+
+            "theme" => [
+                "text"  => t("Teman"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Teman")
             ],
         ],
     ],

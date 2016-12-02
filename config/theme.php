@@ -17,12 +17,11 @@ return [
             "bodyClass"     => [],
             "lang"          => "sv",
             "charset"       => "utf-8",
-            "title_append"  => " | Anax Flat",
+            "title_append"  => " | Tobias Almroth",
             "favicon"       => "img/favicon/favicon_256x256.png",
 
             // Style and stylesheets
-            //"stylesheets" => ["css/default.min.css"],
-            "stylesheets" => ["css/style.min.css"],
+            "stylesheets" => ["css/default.min.css"],
             // "stylesheets" => [
             //     "css/style.min.css",
             //     "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
