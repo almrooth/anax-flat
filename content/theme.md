@@ -1,6 +1,6 @@
 #Teman
 
-Sidan har flera olika teman som man växla mellan via [temaväljaren](../index.php/theme-selector).
+Sidan har flera olika teman som man växla mellan via [temaväljaren](../htdocs/theme-selector).
 
 ##Base
 

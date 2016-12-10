@@ -20,11 +20,30 @@ return [
                 "title" => t("Om sidan")
             ],
 
+            "blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("Blogg"),
+                "mark-if-parent" => true,
+            ],
+
             "report" => [
                 "text"  => t("Redovisningar"),
                 "url"   => $this->di->get("url")->create("report"),
                 "title" => t("Redovisningar"),
                 "mark-if-parent" => true,
+            ],
+
+            "analysis" => [
+                "text"  => t("Analyser"),
+                "url"   => $this->di->get("url")->create("analysis"),
+                "title" => t("Analyser")
+            ],
+
+            "theme" => [
+                "text"  => t("Teman"),
+                "url"   => $this->di->get("url")->create("theme"),
+                "title" => t("Teman")
             ],
 
             "grid" => [
@@ -39,18 +58,11 @@ return [
                 "title" => t("Typografi")
             ],
 
-            "analysis" => [
-                "text"  => t("Färganalys"),
-                "url"   => $this->di->get("url")->create("analysis"),
-                "title" => t("Färganalys")
+            "images" => [
+                "text"  => t("Bilder"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Images")
             ],
-
-            "theme" => [
-                "text"  => t("Teman"),
-                "url"   => $this->di->get("url")->create("theme"),
-                "title" => t("Teman")
-            ],
-
         ],
     ],
 
@@ -74,6 +86,13 @@ return [
                 "title" => t("Om sidan")
             ],
 
+            "blogg" => [
+                "text"  => t("Blogg"),
+                "url"   => $this->di->get("url")->create("blogg"),
+                "title" => t("Blogg"),
+                "mark-if-parent" => true,
+            ],
+
             "report" => [
                 "text"  => t("Redovisningar"),
                 "url"   => $this->di->get("url")->create("report"),
@@ -93,10 +112,16 @@ return [
                 "title" => t("Typografi")
             ],
 
+            "images" => [
+                "text"  => t("Bilder"),
+                "url"   => $this->di->get("url")->create("images"),
+                "title" => t("Images")
+            ],
+
             "analysis" => [
-                "text"  => t("Färg"),
+                "text"  => t("Analyser"),
                 "url"   => $this->di->get("url")->create("analysis"),
-                "title" => t("Färganalys")
+                "title" => t("Analyser")
             ],
 
             "theme" => [
