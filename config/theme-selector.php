@@ -69,12 +69,30 @@ return [
             ]
         ],
 
-        // "separator2" => "------------------------------------------------",
-        //
-        // "fun"       => [
-        //     "title"      => "All fun, test and play, make it stand out!",
-        //     "class"      => "fun",
-        //     "stylesheets" => []
-        // ],
+        "separator2" => "------------------------------------------------",
+
+        "depth"       => [
+            "title"      => "Focusing on depth using shadows.",
+            "class"      => "depth",
+            "stylesheets" => [
+                "css/dp.min.css"
+            ]
+        ],
+
+        "contrast"       => [
+            "title"      => "Focusing on contrast using black and white.",
+            "class"      => "contrast",
+            "stylesheets" => [
+                "css/dp.min.css"
+            ]
+        ],
+
+        "texture"       => [
+            "title"      => "A theme with texture and opacity.",
+            "class"      => "texture",
+            "stylesheets" => [
+                "css/dp.min.css"
+            ]
+        ],
     ]
 ];
