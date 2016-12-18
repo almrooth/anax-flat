@@ -94,5 +94,32 @@ return [
                 "css/dp.min.css"
             ]
         ],
+
+        "separator3" => "------------------------------------------------",
+
+        "borders"       => [
+            "title"      => "A theme with borders and texture.",
+            "class"      => "borders",
+            "stylesheets" => [
+                "css/dp.min.css"
+            ]
+        ],
+
+        "image"       => [
+            "title"      => "A theme with backgroundimage.",
+            "class"      => "image",
+            "stylesheets" => [
+                "css/dp.min.css"
+            ]
+        ],
+
+        "gradient"       => [
+            "title"      => "A theme with gradients.",
+            "class"      => "gradient",
+            "stylesheets" => [
+                "css/dp.min.css"
+            ]
+        ],
+
     ]
 ];
